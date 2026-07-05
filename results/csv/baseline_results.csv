@@ -1,0 +1,10 @@
+Benchmark,Predictor,IPC,Branch_Accuracy,MPKI,ROB_Occupancy
+600.perlbench_s-210B,bimodal,2.327,97.49,3.477,129.5
+602.gcc_s-734B,bimodal,0.4785,94.65,12.69,50.95
+605.mcf_s-472B,bimodal,0.2171,98.34,1.968,135.8
+600.perlbench_s-210B,gshare,2.35,98.02,2.739,165.8
+602.gcc_s-734B,gshare,0.5664,99.85,0.3496,42.73
+605.mcf_s-472B,gshare,0.2111,97.63,2.806,148.5
+600.perlbench_s-210B,hashed_perceptron,2.452,99.15,1.176,164.8
+602.gcc_s-734B,hashed_perceptron,0.5676,99.87,0.3106,48.34
+605.mcf_s-472B,hashed_perceptron,0.2287,99.02,1.159,172

@@ -1,0 +1,9 @@
+traces/
+*.xz
+.DS_Store
+**/.DS_Store
+bin/
+vcpkg_installed/
+.csconfig/
+_configuration.mk
+*.o
