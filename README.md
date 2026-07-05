@@ -43,13 +43,18 @@ Baseline IPC across the three predictors and benchmarks:
 
 The hashed perceptron leads on IPC and branch accuracy (99%+) across all three workloads, giving a strong, well-motivated baseline for the planned learning-based predictor. Full per-run metrics are in [`results/csv/baseline_results.csv`](results/csv/baseline_results.csv); raw simulator logs are preserved under [`results/raw/`](results/raw/) as evidence behind the summary.
 
-## Repository structure├── run_all.sh                    # Driver: builds each predictor, runs all benchmarks
+## Repository structure
+
+```
+.
+├── run_all.sh                    # Driver: builds each predictor, runs all benchmarks
 ├── test_run.sh                   # Quick smoke test (bimodal, short run)
 ├── extract_baseline_metrics.sh   # Parses raw simulator logs into the results CSV
 ├── configs/                      # ChampSim JSON configs (bimodal, gshare, hashed_perceptron)
 └── results/
-├── csv/baseline_results.csv  # Summary results table
-└── raw/                      # Per-run simulator output logs
+    ├── csv/baseline_results.csv  # Summary results table
+    └── raw/                      # Per-run simulator output logs
+```
 
 ## Reproducing
 
